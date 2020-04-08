@@ -1,0 +1,36 @@
+/ [ Ll ] ibrary /
+/ [ Tt ] emp /
+/ [ Oo ] bj /
+/ [ Bb ] uild /
+/ [ Bb ] uilds /
+/ アセット / AssetStoreTools *
+
+＃のVisual Studio 2015のキャッシュディレクトリ
+/ .vs /
+
+＃自動生成されたVS / MD / Consuloソリューションおよびプロジェクトファイル
+ExportedObj /
+.consulo /
+* .csproj
+* .unityproj
+* .sln
+* .suo
+* .tmp
+* .user
+* .userprefs
+* .pidb
+* .booproj
+* .svd
+* .pdb
+* .opendb
+
+＃ Unity3Dで生成されたメタファイル
+* .pidb.meta
+* .pdb.meta
+
+＃クラッシュレポートで生成されたUnity3Dファイル
+sysinfo.txt
+
+＃ビルド
+* .apk
+* .unitypackage

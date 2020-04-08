@@ -1,0 +1,10 @@
+﻿[*.cs]
+
+# IDE0052: 読み取られていないプライベート メンバーを削除
+dotnet_diagnostic.IDE0052.severity = none
+
+# CS0109: メンバーは継承されたメンバーを非表示にしません。new キーワードは不要です
+dotnet_diagnostic.CS0109.severity = none
+
+# IDE0040: アクセシビリティ修飾子を追加します
+dotnet_style_require_accessibility_modifiers = always:silent
