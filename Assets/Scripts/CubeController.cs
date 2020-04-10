@@ -11,8 +11,9 @@ public class CubeController : MonoBehaviour
     private float deadLine = -10;
 
     //AudioSource
-    private new AudioSource audioSource;
-        
+    AudioSource audioSource;
+   
+
 
     // Use this for initialization
     void Start ()
@@ -35,10 +36,13 @@ public class CubeController : MonoBehaviour
 
         
     }
-    private void OnCollisionEnter2D(Collision2D coll)
+    void OnCollisionEnter2D(Collision2D coll)
     {
         
-        audioSource.volume = (coll.gameObject.tag == "Ground" || coll.gameObject.tag == "Cube") ? 1 : 0;
+        if(coll.gameObject.tag == "Ground" || coll.gameObject.tag == "Cube")
+        {
+            audioSource.Play();
+        }
         
     }
 
